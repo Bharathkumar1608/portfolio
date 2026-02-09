@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bharath Kumar | Portfolio</title>
+<link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h2 class="logo">Bharath<span>Kumar</span></h2>
+    <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-img">
+            <img src="myimg.png" alt="Bharath Photo">
+        </div>
+
+        <div class="hero-text">
+            <h1>Hi, I'm Bharath <span>Kumar</span> 👋</h1>
+            <h2 id="typing"></h2>
+            <button onclick="scrollToProjects()">View Projects</button>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <div class="about-box">
+        <p>
+        I'm <b>Bharath Kumar</b>, a Computer Science student at <b>VIT-AP University</b> and an aspiring Full-Stack Developer.
+        I enjoy building web apps, solving DSA problems and learning new technologies.
+        </p>
+
+        <p>
+        I work mainly with Java, Python and JavaScript .
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"><p>C</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"><p>C++</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><p>Java</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><p>Python</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><p>JavaScript</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><p>HTML</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><p>CSS</p></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><p>GitHub</p></div>
+        <div class="skill"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"><p>MATLAB</p></div>
+        <div class="skill"><img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png"><p>SQL</p></div>
+        <div class="skill"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg"><p>R</p></div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Software Projects</h2>
+    <div id="project-container" class="project-grid"></div>
+
+    <h2>Hardware Projects</h2>
+    <div id="hardware-container" class="project-grid"></div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-left">
+        <p>📧 bharath.23BCE20301@vitapstudent.ac.in</p>
+        <p>📱 +91 8897222397</p>
+    </div>
+    <div class="footer-right">
+        © 2026 Bharath Kumar • All Rights Reserved
+    </div>
+</footer>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
