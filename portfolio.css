@@ -217,3 +217,42 @@ section{
         gap:10px;
     }
 }
+/* SOCIAL BUTTONS */
+.social-buttons{
+    margin-top:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 22px;
+    margin:8px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+    color:white;
+}
+
+/* LinkedIn */
+.linkedin{
+    background:#0077b5;
+}
+.linkedin:hover{
+    background:#005582;
+}
+
+/* LeetCode */
+.leetcode{
+    background:#f89f1b;
+}
+.leetcode:hover{
+    background:#c97d00;
+}
+
+/* GitHub */
+.github{
+    background:#333;
+}
+.github:hover{
+    background:#000;
+}
